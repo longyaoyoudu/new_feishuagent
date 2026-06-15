@@ -1,0 +1,42 @@
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+*.egg-info/
+*.egg
+
+# 日志
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 测试
+.coverage
+htmlcov/
+.tox/
+.cache
+coverage.xml
+*.cover
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
